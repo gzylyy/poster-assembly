@@ -7,8 +7,8 @@
 它将构图决策、图像素材、文字排版和输出检查分别处理，便于只修改有问题的部分。
 
 <p>
-  <img src="examples/folded-light/layout.png" width="240" alt="不含文字的布局参考，预留排版位置">
-  <img src="examples/folded-light/poster.png" width="240" alt="Folded Light 矢量演示海报，图像和文字分别组织">
+  <img src="examples/folded-light/layout.svg" width="240" alt="不含文字的布局参考，预留排版位置">
+  <img src="examples/folded-light/poster.svg" width="240" alt="Folded Light 矢量演示海报，图像和文字分别组织">
 </p>
 
 **完整示例：**[需求 → 布局 → 独立素材 → 拼接结果](examples/folded-light/README.md)。示例图形为本项目制作的可复现 SVG，明确区分演示与真实 AI 出图，不作为模型效果对比。
@@ -32,7 +32,7 @@
 
 ## 在 Codex 中安装
 
-下载仓库并解压，将其中的 **`skills/poster-assembly` 文件夹整体复制**到技能目录。个人安装后的主文件应位于：
+下载[仓库源码 ZIP](https://github.com/gzylyy/poster-assembly/archive/refs/heads/main.zip) 并解压，将其中的 **`skills/poster-assembly` 文件夹整体复制**到技能目录。此安装方式无需等待单独的 GitHub Release。个人安装后的主文件应位于：
 
 ```text
 ~/.agents/skills/poster-assembly/SKILL.md

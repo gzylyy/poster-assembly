@@ -14,7 +14,7 @@ Read [brief.md](brief.md) for the use case, target dimensions, copy, visual dire
 
 ## 2. Layout reference / 布局参考
 
-![Text-free composition reference](layout.png)
+![Text-free composition reference](layout.svg)
 
 [Editable reference / 可编辑参考图](layout.svg)
 
@@ -24,14 +24,14 @@ The reference uses blocks and a silhouette to reserve space. It contains no text
 
 ## 3. Independent artwork / 独立素材
 
-| Asset / 素材 | SVG source / 源文件 | PNG convenience export / 便捷导出 | Nominal canvas / 尺寸 |
-|---|---|---|---|
-| Background / 背景 | [background.svg](assets/background.svg) | [background.png](assets/background.png) | 1200 × 1800 |
-| Paper form / 纸雕主体 | [hero.svg](assets/hero.svg) | [hero.png](assets/hero.png) | 780 × 960, transparent outside the form / 主体之外透明 |
+| Asset / 素材 | SVG source / 源文件 | Nominal canvas / 尺寸 |
+|---|---|---|
+| Background / 背景 | [background.svg](assets/background.svg) | 1200 × 1800 |
+| Paper form / 纸雕主体 | [hero.svg](assets/hero.svg) | 780 × 960, transparent outside the form / 主体之外透明 |
 
-The source assets contain no text. SVG artwork is scalable; the PNG figures describe the actual raster exports, not a claim about an image model's native output.
+The source assets contain no text. SVG artwork is scalable; the dimensions above describe its coordinate system, not an image model's native output. Export PNG copies from the SVG files in your editor when raster files are needed.
 
-素材不含文字；SVG 为可缩放矢量，PNG 尺寸是本项目实际导出的位图规格，不是模型原生出图能力的声明。
+素材不含文字；SVG 为可缩放矢量，上述尺寸描述其坐标系统，不是模型原生出图能力的声明。需要位图时，可在编辑器中从 SVG 导出 PNG。
 
 ## 4. Assembly / 拼接参数
 
@@ -49,14 +49,14 @@ The final [poster.svg](poster.svg) embeds the actual background and hero artwork
 
 ## 5. Result and checks / 结果与检查
 
-![Final assembled vector demonstration](poster.png)
+![Final assembled vector demonstration](poster.svg)
 
 [Editable poster / 可编辑排版结果](poster.svg)
 
 - Composition, artwork, and typography are separate artifacts. / 构图、素材和文字分别提供。
-- The hero PNG has a real alpha channel; its transparent margin is not a checkerboard image. / 主体 PNG 提供真实 alpha 通道。
+- The hero SVG has a transparent exterior with no painted checkerboard; preserve transparency when exporting a PNG. / 主体 SVG 外部透明，不含棋盘格图案；导出 PNG 时保留透明背景。
 - The final SVG contains editable text and named artwork groups. / 最终 SVG 保留文字与命名图形组。
-- The PNG is a screen demonstration; no print bleed, printer profile, or QR scanning result is claimed. / PNG 用于屏幕演示，未声称完成印刷出血、印厂配置或扫码测试。
+- The example is a screen demonstration; no print bleed, printer profile, or QR scanning result is claimed. / 示例用于屏幕演示，未声称完成印刷出血、印厂配置或扫码测试。
 - The workflow stage requiring user approval is illustrated, not recorded as an actual client approval. / 示例说明确认环节，不伪造真实客户审批记录。
 
 The example files are distributed under the repository's [MIT License](../../LICENSE).

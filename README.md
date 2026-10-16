@@ -7,8 +7,8 @@ A practical skill for planning posters, producing independent visual assets, and
 The workflow keeps composition decisions, visual materials, typography, and output checks separate so a local correction does not require rebuilding the whole poster.
 
 <p>
-  <img src="examples/folded-light/layout.png" width="240" alt="Text-free layout reference with reserved space for typography">
-  <img src="examples/folded-light/poster.png" width="240" alt="Folded Light vector demonstration with separate artwork and editable type">
+  <img src="examples/folded-light/layout.svg" width="240" alt="Text-free layout reference with reserved space for typography">
+  <img src="examples/folded-light/poster.svg" width="240" alt="Folded Light vector demonstration with separate artwork and editable type">
 </p>
 
 **Example:** [brief → layout → separate assets → assembled poster](examples/folded-light/README.md). The artwork is an original, reproducible SVG demonstration; it is not presented as an AI-generated result or a model quality benchmark.
@@ -32,7 +32,7 @@ The repository contains instructions, templates, and an SVG example. It does not
 
 ## Install in Codex
 
-Download and extract this repository, then copy **`skills/poster-assembly`** into a supported skills directory. For a user-level installation, the resulting entry point is:
+Download and extract the [repository ZIP](https://github.com/gzylyy/poster-assembly/archive/refs/heads/main.zip), then copy **`skills/poster-assembly`** into a supported skills directory. A separate GitHub Release is not required for this installation. For a user-level installation, the resulting entry point is:
 
 ```text
 ~/.agents/skills/poster-assembly/SKILL.md
@@ -90,9 +90,9 @@ skills/poster-assembly/
   LICENSE
 examples/folded-light/
   README.md / brief.md
-  layout.svg / layout.png
+  layout.svg
   assets/background.svg / assets/hero.svg
-  poster.svg / poster.png
+  poster.svg
 docs/LANGUAGE.md / PUBLISHING.md
 ```
 

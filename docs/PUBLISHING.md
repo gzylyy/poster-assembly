@@ -1,13 +1,13 @@
 # GitHub 发布指南
 
-这份目录是可单独上传的仓库内容。技能的本机审查记录、历史备份和临时验证依赖不属于该目录。
+公开仓库为 [gzylyy/poster-assembly](https://github.com/gzylyy/poster-assembly)。技能的本机审查记录、历史备份和临时验证依赖不属于公开内容。
 
 ## 仓库信息
 
-- 名称建议：`poster-assembly`。
+- 仓库名称：`poster-assembly`。
 - 作者：Fishking。
 - 许可证：MIT，已写入仓库根目录及可独立分发的技能文件夹。
-- 版本：`0.1.0`，首次公开发布前准备的版本号。
+- 技能版本：`0.1.0`。
 - 英文介绍可填：`A practical skill for poster planning, independent visual assets, editable typography, and production handoff.`
 - Topics 可选：`agent-skills`、`codex`、`poster-design`、`design-workflow`、`typography`。
 
@@ -16,7 +16,7 @@
 1. 在 GitHub 创建公开仓库，使用上述名称或你自己的名称。
 2. 上传本目录的内容，让 `README.md`、`LICENSE`、`plugin.json` 和 `skills/` 直接位于仓库根目录。
 3. 检查中英文说明切换、示例预览、技能参考链接和文件树。
-4. README 已包含安装方式，不需要填一个尚不存在的仓库 URL；仓库创建后可以再加自己的真实链接。
+4. README 已包含真实仓库的源码下载地址及安装方法，无需单独的 Release 也可安装。示例预览直接使用可编辑 SVG，不依赖额外的 PNG 导出。
 
 完整源码包解压后有一层 `poster-assembly` 外层目录；上传的是这一层里面的文件。不要把整个本机工作目录或只有一个 ZIP 文件的空仓库作为源码发布。
 
