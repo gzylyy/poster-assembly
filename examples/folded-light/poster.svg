@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800">
+  <title>Folded Light: assembled workflow demonstration</title>
+  <desc>Original vector demonstration with embedded independent background and paper-form artwork, plus separate editable typography. Fictional exhibition content.</desc>
+  <defs>
+    <filter id="paper-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="14" dy="18" stdDeviation="11" flood-color="#04161E" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <g id="artwork">
+  <g id="background-artwork">
+    <rect width="1200" height="1800" fill="#102A36"/>
+    <circle cx="1190" cy="1010" r="460" fill="#153743"/>
+    <circle cx="1190" cy="1010" r="460" fill="none" stroke="#294753" stroke-width="2"/>
+    <ellipse cx="693" cy="1468" rx="353" ry="27" fill="#0A202A"/>
+    <path d="M96 1540H1104" stroke="#4E6871" stroke-width="2"/>
+    <path d="M96 1718V1742" stroke="#E86B3C" stroke-width="5"/>
+  </g>
+    <g id="hero-placement" transform="translate(285 535)">
+  <g id="paper-form" filter="url(#paper-shadow)" stroke-linejoin="round">
+    <path d="M120 780L320 180L650 450L735 830L280 930Z" fill="#C9C8BC"/>
+    <path d="M120 780L320 180L430 600L280 930Z" fill="#F1EDDF"/>
+    <path d="M320 180L650 450L430 600Z" fill="#E86B3C"/>
+    <path d="M650 450L735 830L430 600Z" fill="#B9C2BD"/>
+    <path d="M430 600L735 830L280 930Z" fill="#D9D9CB"/>
+    <path d="M120 780L280 930L430 600Z" fill="#FAF5E8"/>
+    <path d="M320 180L430 600L650 450" fill="none" stroke="#FCF3E0" stroke-opacity="0.5" stroke-width="3"/>
+    <path d="M430 600L280 930" fill="none" stroke="#B6BFB8" stroke-width="2"/>
+    <path d="M351 290L390 438" stroke="#F9AE7E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+    </g>
+  </g>
+  <g id="typography" fill="#F1EDDF">
+    <text x="96" y="96" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3">POSTER ASSEMBLY / STUDY 01</text>
+    <text x="88" y="282" font-family="Georgia, 'Times New Roman', serif" font-size="132" letter-spacing="1">FOLDED</text>
+    <text x="80" y="458" font-family="Georgia, 'Times New Roman', serif" font-size="224" letter-spacing="-2">LIGHT</text>
+    <text x="96" y="512" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="4" fill="#BBC8C8">PAPER, SPACE &amp; SHADOW</text>
+    <text x="96" y="1610" font-family="Arial, Helvetica, sans-serif" font-size="34">A study in separate assets</text>
+    <text x="96" y="1658" font-family="Arial, Helvetica, sans-serif" font-size="34">and editable typography.</text>
+    <text x="114" y="1734" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="1.5" fill="#ABBFC3">FICTIONAL EXHIBITION / WORKFLOW DEMO</text>
+    <text x="1104" y="1734" font-family="Arial, Helvetica, sans-serif" font-size="28" text-anchor="end" fill="#E86B3C">01</text>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Poster Assembly"
+  short_description: "Plan posters with separate assets and editable text"
+  default_prompt: "Use $poster-assembly to plan a poster with independent visual assets and editable text. Ask only for missing critical details."

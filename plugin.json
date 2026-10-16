@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "poster-assembly",
+  "version": "0.1.0",
+  "description": "Plan posters with independent visual assets, editable typography, and practical production guidance."
+}

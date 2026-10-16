@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800">
+  <title>Folded Light background artwork</title>
+  <desc>Text-free deep-blue background with a subtle spatial circle, ground shadow, and rule.</desc>
+  <g id="background-artwork">
+    <rect width="1200" height="1800" fill="#102A36"/>
+    <circle cx="1190" cy="1010" r="460" fill="#153743"/>
+    <circle cx="1190" cy="1010" r="460" fill="none" stroke="#294753" stroke-width="2"/>
+    <ellipse cx="693" cy="1468" rx="353" ry="27" fill="#0A202A"/>
+    <path d="M96 1540H1104" stroke="#4E6871" stroke-width="2"/>
+    <path d="M96 1718V1742" stroke="#E86B3C" stroke-width="5"/>
+  </g>
+</svg>

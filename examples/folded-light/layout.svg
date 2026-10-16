@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800">
+  <title>Text-free poster layout reference</title>
+  <desc>Blocks reserve space for the headline, independent artwork, and supporting copy. No visual text is generated in the reference.</desc>
+  <rect width="1200" height="1800" fill="#EDEBE3"/>
+  <g fill="none" stroke="#C7CBC5" stroke-width="2" stroke-dasharray="10 10">
+    <rect x="96" y="96" width="1008" height="1640"/>
+    <path d="M96 530H1104M96 1540H1104"/>
+  </g>
+  <g fill="#283E48">
+    <rect x="96" y="78" width="370" height="24"/>
+    <rect x="96" y="180" width="660" height="104"/>
+    <rect x="96" y="320" width="800" height="140"/>
+  </g>
+  <rect x="96" y="492" width="430" height="22" fill="#97A39F"/>
+  <ellipse cx="693" cy="1468" rx="353" ry="27" fill="#C7CEC7"/>
+  <path d="M405 1315L605 715L935 985L1020 1365L565 1465Z" fill="#A9B4AE"/>
+  <path d="M605 715L935 985L715 1135Z" fill="#D99A7C"/>
+  <path d="M405 1315L605 715L715 1135L565 1465Z" fill="#D2D8CF"/>
+  <path d="M96 1540H1104" stroke="#A9B4AE" stroke-width="2"/>
+  <rect x="96" y="1596" width="540" height="27" fill="#7F908A"/>
+  <rect x="96" y="1646" width="440" height="27" fill="#A9B4AE"/>
+  <rect x="96" y="1718" width="600" height="18" fill="#A9B4AE"/>
+</svg>
